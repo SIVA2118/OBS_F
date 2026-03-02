@@ -6,7 +6,7 @@ import {
     LayoutDashboard, Users, FileText, CheckCircle, XCircle,
     LogOut, Mail, User, Shield, Search, Filter,
     ChevronRight, Clock, AlertCircle, CreditCard, BookOpen,
-    ArrowUpRight, ArrowDownLeft, Activity, Info
+    ArrowUpRight, ArrowDownLeft, Activity, Info, Menu
 } from 'lucide-react';
 
 const StaffDashboard = () => {
