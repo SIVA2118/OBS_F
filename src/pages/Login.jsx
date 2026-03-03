@@ -107,6 +107,10 @@ const Login = () => {
                     Don't have an account? <Link to="/register" className="text-obs-blue hover:text-sky-400 font-medium transition-colors">Sign up</Link>
                 </p>
             </div>
+            {/* Footer */}
+            <div className="absolute bottom-4 left-0 right-0 text-center pointer-events-none">
+                <p className="text-[10px] sm:text-xs font-black text-slate-500 uppercase tracking-widest leading-none">2026 Online Banking application/Developed NITHIN K A</p>
+            </div>
         </div>
     );
 };

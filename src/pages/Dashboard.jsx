@@ -936,7 +936,7 @@ function TransactionsModal({ onClose, user, history, refreshData, initialShowFor
 
                 {/* Footer */}
                 <div className="p-8 border-t border-white/5 bg-white/[0.02] flex justify-between items-center relative z-10">
-                    <p className="text-[8px] font-black text-slate-600 uppercase tracking-[0.5em]">AUTH_PROTOCOL: OBS_NOVA_SECURE • LOG_INTEGRITY_VERIFIED</p>
+                    <p className="text-[8px] font-black text-slate-600 uppercase tracking-[0.5em]">2026 Online Banking application/Developed NITHIN K A</p>
                     <div className="flex items-center gap-6">
                         <div className="flex items-center gap-2">
                             <Fingerprint className="w-4 h-4 text-obs-blue" />
@@ -1221,7 +1221,7 @@ function PassbookModal({ onClose, user, history }) {
 
                 {/* Footer */}
                 <div className="p-10 border-t border-white/5 bg-white/[0.02] flex justify-between items-center relative z-10">
-                    <p className="text-[9px] font-black text-slate-600 uppercase tracking-[0.5em]">NOVA_PROTOCOL_ENCRYPTION_v4.2 • SECURE_NODE_SYNC</p>
+                    <p className="text-[9px] font-black text-slate-600 uppercase tracking-[0.5em]">2026 Online Banking application/Developed NITHIN K A</p>
                     <div className="flex items-center gap-3">
                         <div className="h-1 w-24 bg-white/5 rounded-full overflow-hidden">
                             <div className="h-full bg-obs-blue w-[70%] animate-pulse"></div>
@@ -1654,7 +1654,7 @@ function ProfileModal({ onClose, user, refreshData }) {
                                 <Info size={20} />
                             </div>
                             <div>
-                                <p className="text-[10px] font-black text-white uppercase tracking-widest leading-none mb-1.5">Data Integrity Protocol</p>
+                                <p className="text-[10px] font-black text-white uppercase tracking-widest leading-none mb-1.5">2026 Online Banking application/Developed NITHIN K A</p>
                                 <p className="text-[9px] text-slate-500 font-bold uppercase tracking-widest max-w-xl">
                                     {isEditing ? 'COMMIT MODE ACTIVE: All changes must adhere to Nova Security standards. Transaction hashes will be logged.' : 'VIEW MODE ACTIVE: Universal entity data synchronized with the global ledger.'}
                                 </p>
@@ -1842,6 +1842,10 @@ function AppointmentModal({ onClose, refreshData }) {
                         </div>
                     </div>
                 </div>
+                {/* Modal Footer */}
+                <div className="p-6 border-t border-white/5 bg-white/[0.02] flex justify-center items-center relative z-10">
+                    <p className="text-[9px] font-black text-slate-600 uppercase tracking-[0.5em]">2026 Online Banking application/Developed NITHIN K A</p>
+                </div>
             </div>
         </div>
     );
@@ -1942,6 +1946,10 @@ function CustomerFormModal({ formRequest, onClose, refreshData }) {
                         )}
                     </div>
                 </form>
+                {/* Modal Footer */}
+                <div className="p-6 border-t border-white/5 bg-white/[0.02] flex justify-center items-center relative z-10">
+                    <p className="text-[9px] font-black text-slate-600 uppercase tracking-[0.5em]">2026 Online Banking application/Developed NITHIN K A</p>
+                </div>
             </div>
         </div>
     );

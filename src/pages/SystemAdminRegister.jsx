@@ -53,7 +53,7 @@ const SystemAdminRegister = () => {
     };
 
     return (
-        <div className="min-h-screen bg-slate-900 flex items-center justify-center p-6 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]">
+        <div className="min-h-screen bg-slate-900 flex items-center justify-center p-6 relative bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]">
             <div className="max-w-xl w-full bg-white rounded-[2.5rem] shadow-2xl overflow-hidden flex flex-col md:flex-row">
                 <div className="w-full p-10 md:p-14">
                     <Link to="/" className="inline-flex items-center text-obs-blue font-bold mb-8 group">
@@ -131,6 +131,10 @@ const SystemAdminRegister = () => {
                     </p>
                 </div >
             </div >
+            {/* Footer */}
+            <div className="absolute bottom-4 left-0 right-0 text-center pointer-events-none">
+                <p className="text-[10px] sm:text-xs font-black text-slate-500 uppercase tracking-widest leading-none">2026 Online Banking application/Developed NITHIN K A</p>
+            </div>
         </div >
     );
 };

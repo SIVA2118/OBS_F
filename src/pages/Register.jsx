@@ -541,6 +541,10 @@ const Register = () => {
                     </p>
                 )}
             </div>
+            {/* Footer */}
+            <div className="absolute bottom-4 left-0 right-0 text-center pointer-events-none">
+                <p className="text-[10px] sm:text-xs font-black text-slate-500 uppercase tracking-widest leading-none">2026 Online Banking application/Developed NITHIN K A</p>
+            </div>
             {/* Custom scrollbar styles for inner scrolling areas */}
             <style jsx="true">{`
                 .custom-scrollbar::-webkit-scrollbar { width: 6px; }

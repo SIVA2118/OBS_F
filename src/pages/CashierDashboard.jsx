@@ -571,7 +571,7 @@ const CashierDashboard = () => {
                     </div>
                     <div className="flex items-center gap-3">
                         <Fingerprint className="w-3 h-3 text-obs-blue" size={14} />
-                        <span className="text-[8px] font-black text-slate-500 uppercase tracking-[0.2em]">Encryption: AES_256_GCM</span>
+                        <span className="text-[8px] font-black text-slate-500 uppercase tracking-[0.2em]">2026 Online Banking application/Developed NITHIN K A</span>
                     </div>
                 </footer>
             </main >

@@ -453,6 +453,10 @@ const BankClerkDashboard = () => {
                         </div>
                     </div>
                 </main>
+                {/* Footer */}
+                <footer className="mt-8 text-center pb-4 relative z-10">
+                    <p className="text-[10px] sm:text-xs font-black text-slate-500 uppercase tracking-widest leading-none">2026 Online Banking application/Developed NITHIN K A</p>
+                </footer>
             </div>
 
             <style dangerouslySetInnerHTML={{

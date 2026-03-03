@@ -204,7 +204,7 @@ const Landing = () => {
                         <Zap className="w-5 h-5 text-obs-blue" />
                         <span className="font-bold text-slate-800">OBS Banking System</span>
                     </div>
-                    <p className="text-slate-400 text-sm">© 2026 Online Banking System. All rights reserved.</p>
+                    <p className="text-slate-400 text-sm">2026 Online Banking application/Developed NITHIN K A</p>
                 </div>
             </footer>
         </div>
